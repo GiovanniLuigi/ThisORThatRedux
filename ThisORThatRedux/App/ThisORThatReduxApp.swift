@@ -11,7 +11,7 @@ import SwiftUI
 let store = Store(
     initial: AppState(),
     reducer: AppState.reducer,
-    middlewares: []//[Middlewares.tvShows, Middlewares.logger, timelineRecorder.middleware, HotReloader().middleware]
+    middlewares: [Middlewares.ducks]//[Middlewares.tvShows, Middlewares.logger, timelineRecorder.middleware, HotReloader().middleware]
 )
 
 struct AppView: View {
@@ -19,10 +19,7 @@ struct AppView: View {
 
     var body: some View {
         if store.state.screenState(for: .home) as HomeState? != nil {
-            NavigationView {
-                HomeView()
-            }
-            .navigationViewStyle(.stack)
+            HomeView()
         } else {
             SplashView()
         }

@@ -8,5 +8,6 @@
 import Foundation
 
 enum HomeStateAction: Action {
-    
+    case fetchDuckImages
+    case didReceiveDuckImages([DuckImage])
 }
