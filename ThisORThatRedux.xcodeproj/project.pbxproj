@@ -7,18 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9B2198A28FEE9A800A81CD7 /* ActiveScreensState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2198928FEE9A800A81CD7 /* ActiveScreensState.swift */; };
+		B9B2198C28FEE9EC00A81CD7 /* AppScreenState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2198B28FEE9EC00A81CD7 /* AppScreenState.swift */; };
+		B9B2198E28FEEADA00A81CD7 /* ActiveScreensStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2198D28FEEADA00A81CD7 /* ActiveScreensStateAction.swift */; };
+		B9B2199028FEEB4400A81CD7 /* ActiveScreensStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2198F28FEEB4400A81CD7 /* ActiveScreensStateReducer.swift */; };
+		B9B2199228FEEC1B00A81CD7 /* AppScreenStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2199128FEEC1B00A81CD7 /* AppScreenStateReducer.swift */; };
+		B9B2199928FEECB700A81CD7 /* HomeState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2199828FEECB700A81CD7 /* HomeState.swift */; };
+		B9B2199B28FEECF800A81CD7 /* HomeStateAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2199A28FEECF800A81CD7 /* HomeStateAction.swift */; };
+		B9B2199D28FEED1A00A81CD7 /* HomeStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2199C28FEED1A00A81CD7 /* HomeStateReducer.swift */; };
+		B9B2199F28FEEDF500A81CD7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B2199E28FEEDF500A81CD7 /* HomeView.swift */; };
+		B9B219A128FEEE2C00A81CD7 /* AppStateReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B219A028FEEE2C00A81CD7 /* AppStateReducer.swift */; };
+		B9B219A528FEEE9200A81CD7 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B219A428FEEE9200A81CD7 /* SplashView.swift */; };
+		B9B219A728FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B219A628FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift */; };
 		B9D7910728FDE47700674821 /* ThisORThatReduxApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7910628FDE47700674821 /* ThisORThatReduxApp.swift */; };
 		B9D7910928FDE47700674821 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7910828FDE47700674821 /* ContentView.swift */; };
 		B9D7910B28FDE47800674821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D7910A28FDE47800674821 /* Assets.xcassets */; };
 		B9D7910E28FDE47800674821 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D7910D28FDE47800674821 /* Preview Assets.xcassets */; };
+		B9D7911528FDE69100674821 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911428FDE69100674821 /* Store.swift */; };
+		B9D7911828FDE93500674821 /* AnyCancellable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */; };
+		B9D7911D28FDE9CF00674821 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911C28FDE9CF00674821 /* AppState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B9B2198928FEE9A800A81CD7 /* ActiveScreensState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveScreensState.swift; sourceTree = "<group>"; };
+		B9B2198B28FEE9EC00A81CD7 /* AppScreenState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenState.swift; sourceTree = "<group>"; };
+		B9B2198D28FEEADA00A81CD7 /* ActiveScreensStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveScreensStateAction.swift; sourceTree = "<group>"; };
+		B9B2198F28FEEB4400A81CD7 /* ActiveScreensStateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveScreensStateReducer.swift; sourceTree = "<group>"; };
+		B9B2199128FEEC1B00A81CD7 /* AppScreenStateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppScreenStateReducer.swift; sourceTree = "<group>"; };
+		B9B2199828FEECB700A81CD7 /* HomeState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeState.swift; sourceTree = "<group>"; };
+		B9B2199A28FEECF800A81CD7 /* HomeStateAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStateAction.swift; sourceTree = "<group>"; };
+		B9B2199C28FEED1A00A81CD7 /* HomeStateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStateReducer.swift; sourceTree = "<group>"; };
+		B9B2199E28FEEDF500A81CD7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B9B219A028FEEE2C00A81CD7 /* AppStateReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStateReducer.swift; sourceTree = "<group>"; };
+		B9B219A428FEEE9200A81CD7 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		B9B219A628FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppState+ScreenStateSelector.swift"; sourceTree = "<group>"; };
 		B9D7910328FDE47700674821 /* ThisORThatRedux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThisORThatRedux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D7910628FDE47700674821 /* ThisORThatReduxApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisORThatReduxApp.swift; sourceTree = "<group>"; };
 		B9D7910828FDE47700674821 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B9D7910A28FDE47800674821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9D7910D28FDE47800674821 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9D7911428FDE69100674821 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyCancellable+Extensions.swift"; sourceTree = "<group>"; };
+		B9D7911C28FDE9CF00674821 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +62,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B9B2198828FEE95F00A81CD7 /* AppScreenState */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2198B28FEE9EC00A81CD7 /* AppScreenState.swift */,
+				B9B2199128FEEC1B00A81CD7 /* AppScreenStateReducer.swift */,
+			);
+			path = AppScreenState;
+			sourceTree = "<group>";
+		};
+		B9B2199328FEEC7600A81CD7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2199528FEEC8100A81CD7 /* Home */,
+				B9B2199428FEEC7C00A81CD7 /* Splash */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B9B2199428FEEC7C00A81CD7 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				B9B219A428FEEE9200A81CD7 /* SplashView.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		B9B2199528FEEC8100A81CD7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2199728FEEC9000A81CD7 /* Views */,
+				B9B2199628FEEC8B00A81CD7 /* State */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B9B2199628FEEC8B00A81CD7 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2199828FEECB700A81CD7 /* HomeState.swift */,
+				B9B2199A28FEECF800A81CD7 /* HomeStateAction.swift */,
+				B9B2199C28FEED1A00A81CD7 /* HomeStateReducer.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		B9B2199728FEEC9000A81CD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2199E28FEEDF500A81CD7 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B9D790FA28FDE47700674821 = {
 			isa = PBXGroup;
 			children = (
@@ -51,7 +134,10 @@
 		B9D7910528FDE47700674821 /* ThisORThatRedux */ = {
 			isa = PBXGroup;
 			children = (
-				B9D7910628FDE47700674821 /* ThisORThatReduxApp.swift */,
+				B9B2199328FEEC7600A81CD7 /* Modules */,
+				B9D7911A28FDE9B700674821 /* GlobalStates */,
+				B9D7911928FDE9AC00674821 /* App */,
+				B9D7911628FDE92200674821 /* Extension */,
 				B9D7910828FDE47700674821 /* ContentView.swift */,
 				B9D7910A28FDE47800674821 /* Assets.xcassets */,
 				B9D7910C28FDE47800674821 /* Preview Content */,
@@ -65,6 +151,53 @@
 				B9D7910D28FDE47800674821 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9D7911628FDE92200674821 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */,
+				B9B219A628FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B9D7911928FDE9AC00674821 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7910628FDE47700674821 /* ThisORThatReduxApp.swift */,
+				B9D7911428FDE69100674821 /* Store.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B9D7911A28FDE9B700674821 /* GlobalStates */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7911B28FDE9BE00674821 /* AppState */,
+				B9D7911E28FDEA0C00674821 /* ActiveScreensState */,
+				B9B2198828FEE95F00A81CD7 /* AppScreenState */,
+			);
+			path = GlobalStates;
+			sourceTree = "<group>";
+		};
+		B9D7911B28FDE9BE00674821 /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				B9D7911C28FDE9CF00674821 /* AppState.swift */,
+				B9B219A028FEEE2C00A81CD7 /* AppStateReducer.swift */,
+			);
+			path = AppState;
+			sourceTree = "<group>";
+		};
+		B9D7911E28FDEA0C00674821 /* ActiveScreensState */ = {
+			isa = PBXGroup;
+			children = (
+				B9B2198928FEE9A800A81CD7 /* ActiveScreensState.swift */,
+				B9B2198D28FEEADA00A81CD7 /* ActiveScreensStateAction.swift */,
+				B9B2198F28FEEB4400A81CD7 /* ActiveScreensStateReducer.swift */,
+			);
+			path = ActiveScreensState;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +270,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9B2199B28FEECF800A81CD7 /* HomeStateAction.swift in Sources */,
+				B9B219A528FEEE9200A81CD7 /* SplashView.swift in Sources */,
+				B9B219A728FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift in Sources */,
+				B9B2199F28FEEDF500A81CD7 /* HomeView.swift in Sources */,
+				B9D7911528FDE69100674821 /* Store.swift in Sources */,
+				B9B219A128FEEE2C00A81CD7 /* AppStateReducer.swift in Sources */,
+				B9B2198E28FEEADA00A81CD7 /* ActiveScreensStateAction.swift in Sources */,
+				B9B2199028FEEB4400A81CD7 /* ActiveScreensStateReducer.swift in Sources */,
+				B9B2198C28FEE9EC00A81CD7 /* AppScreenState.swift in Sources */,
+				B9B2199228FEEC1B00A81CD7 /* AppScreenStateReducer.swift in Sources */,
+				B9B2199D28FEED1A00A81CD7 /* HomeStateReducer.swift in Sources */,
+				B9D7911D28FDE9CF00674821 /* AppState.swift in Sources */,
 				B9D7910928FDE47700674821 /* ContentView.swift in Sources */,
+				B9B2199928FEECB700A81CD7 /* HomeState.swift in Sources */,
 				B9D7910728FDE47700674821 /* ThisORThatReduxApp.swift in Sources */,
+				B9D7911828FDE93500674821 /* AnyCancellable+Extensions.swift in Sources */,
+				B9B2198A28FEE9A800A81CD7 /* ActiveScreensState.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
