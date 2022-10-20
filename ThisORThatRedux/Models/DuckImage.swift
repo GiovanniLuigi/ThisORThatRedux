@@ -8,6 +8,5 @@
 import Foundation
 
 struct DuckImage: Codable {
-    let id: String
     let imageURL: String
 }

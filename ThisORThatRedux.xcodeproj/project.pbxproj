@@ -30,6 +30,8 @@
 		B9D7911528FDE69100674821 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911428FDE69100674821 /* Store.swift */; };
 		B9D7911828FDE93500674821 /* AnyCancellable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */; };
 		B9D7911D28FDE9CF00674821 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D7911C28FDE9CF00674821 /* AppState.swift */; };
+		B9E9C95B29017819008A4D04 /* Publisher+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9C95A29017819008A4D04 /* Publisher+Extensions.swift */; };
+		B9E9C95D29017A5A008A4D04 /* DucksResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9C95C29017A5A008A4D04 /* DucksResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +59,8 @@
 		B9D7911428FDE69100674821 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyCancellable+Extensions.swift"; sourceTree = "<group>"; };
 		B9D7911C28FDE9CF00674821 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		B9E9C95A29017819008A4D04 /* Publisher+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Publisher+Extensions.swift"; sourceTree = "<group>"; };
+		B9E9C95C29017A5A008A4D04 /* DucksResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucksResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				B93F091528FF128800B27209 /* DuckImage.swift */,
+				B9E9C95C29017A5A008A4D04 /* DucksResult.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +207,7 @@
 			children = (
 				B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */,
 				B9B219A628FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift */,
+				B9E9C95A29017819008A4D04 /* Publisher+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -317,7 +323,9 @@
 				B9B2199B28FEECF800A81CD7 /* HomeStateAction.swift in Sources */,
 				B9B219A528FEEE9200A81CD7 /* SplashView.swift in Sources */,
 				B9B219A728FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift in Sources */,
+				B9E9C95D29017A5A008A4D04 /* DucksResult.swift in Sources */,
 				B9B2199F28FEEDF500A81CD7 /* HomeView.swift in Sources */,
+				B9E9C95B29017819008A4D04 /* Publisher+Extensions.swift in Sources */,
 				B9D7911528FDE69100674821 /* Store.swift in Sources */,
 				B9B219A128FEEE2C00A81CD7 /* AppStateReducer.swift in Sources */,
 				B93F091C28FF147300B27209 /* DucksRepository.swift in Sources */,
