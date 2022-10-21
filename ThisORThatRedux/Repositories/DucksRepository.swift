@@ -18,15 +18,12 @@ final class DucksRepository: ObservableObject {
         let url = URL(string: "https://random-d.uk/api/v2/list")!
         return URLSession.shared.dataTaskPublisher(for: url)
             .map(\.data)
-            .decode(type: [String: Decodable].self, decoder: JSONDecoder())
             .map {
-                // TODO:- Use JSONSerialization, remove `decode step`
-                let imagesArray = $0["images"] as? [String]
-                return imagesArray.compactMap { $0 as? String }?.compactMap { DuckImage(imageURL: $0) }
+                let json = try? JSONSerialization.jsonObject(with: $0, options: []) as? [String: Any]
+                let imagesArray = json?["images"] as? [String] ?? []
+                return imagesArray.compactMap { DuckImage(imageURL: $0) }
             }
-            .mapError { error in
-                print(error)
-                return DucksRepositoryError.unknown }
+            .mapError { _ in DucksRepositoryError.unknown }
             .eraseToAnyPublisher()
     }
     
