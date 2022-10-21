@@ -15,8 +15,7 @@ enum DucksRepositoryError: Error {
 final class DucksRepository: ObservableObject {
     
     func fetchDuckImages() -> AnyPublisher<[DuckImage], DucksRepositoryError> {
-        let url = URL(string: "https://random-d.uk/api/v2/list")!
-        return URLSession.shared.dataTaskPublisher(for: url)
+        return URLSession.shared.dataTaskPublisher(for: URL(for: .dev, path: "list")!)
             .map(\.data)
             .map {
                 let json = try? JSONSerialization.jsonObject(with: $0, options: []) as? [String: Any]

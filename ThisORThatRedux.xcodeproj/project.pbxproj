@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B909A7982903426C00E70AE1 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909A7972903426C00E70AE1 /* URL+Extensions.swift */; };
+		B909A79B2903434500E70AE1 /* WebConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B909A79A2903434500E70AE1 /* WebConstants.swift */; };
 		B93F091328FF10F900B27209 /* ViewDidLoadModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F091228FF10F900B27209 /* ViewDidLoadModifier.swift */; };
 		B93F091628FF128800B27209 /* DuckImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F091528FF128800B27209 /* DuckImage.swift */; };
 		B93F091928FF13C200B27209 /* DucksMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93F091828FF13C200B27209 /* DucksMiddleware.swift */; };
@@ -34,6 +36,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B909A7972903426C00E70AE1 /* URL+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		B909A79A2903434500E70AE1 /* WebConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConstants.swift; sourceTree = "<group>"; };
 		B93F091228FF10F900B27209 /* ViewDidLoadModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDidLoadModifier.swift; sourceTree = "<group>"; };
 		B93F091528FF128800B27209 /* DuckImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuckImage.swift; sourceTree = "<group>"; };
 		B93F091828FF13C200B27209 /* DucksMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DucksMiddleware.swift; sourceTree = "<group>"; };
@@ -72,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B909A7992903432F00E70AE1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B909A79A2903434500E70AE1 /* WebConstants.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		B93F091128FF10D400B27209 /* ViewModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +188,7 @@
 		B9D7910528FDE47700674821 /* ThisORThatRedux */ = {
 			isa = PBXGroup;
 			children = (
+				B909A7992903432F00E70AE1 /* Common */,
 				B93F091A28FF146100B27209 /* Repositories */,
 				B93F091728FF137E00B27209 /* Middlewares */,
 				B93F091428FF127900B27209 /* Models */,
@@ -205,6 +218,7 @@
 				B9D7911728FDE93500674821 /* AnyCancellable+Extensions.swift */,
 				B9B219A628FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift */,
 				B9E9C95A29017819008A4D04 /* Publisher+Extensions.swift */,
+				B909A7972903426C00E70AE1 /* URL+Extensions.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -322,8 +336,10 @@
 				B9B219A728FEEF0500A81CD7 /* AppState+ScreenStateSelector.swift in Sources */,
 				B9B2199F28FEEDF500A81CD7 /* HomeView.swift in Sources */,
 				B9E9C95B29017819008A4D04 /* Publisher+Extensions.swift in Sources */,
+				B909A7982903426C00E70AE1 /* URL+Extensions.swift in Sources */,
 				B9D7911528FDE69100674821 /* Store.swift in Sources */,
 				B9B219A128FEEE2C00A81CD7 /* AppStateReducer.swift in Sources */,
+				B909A79B2903434500E70AE1 /* WebConstants.swift in Sources */,
 				B93F091C28FF147300B27209 /* DucksRepository.swift in Sources */,
 				B9B2198E28FEEADA00A81CD7 /* ActiveScreensStateAction.swift in Sources */,
 				B9B2199028FEEB4400A81CD7 /* ActiveScreensStateReducer.swift in Sources */,

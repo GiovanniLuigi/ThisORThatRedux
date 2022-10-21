@@ -8,11 +8,17 @@
 import SwiftUI
 
 struct HomeView: View {
+    @EnvironmentObject private var store: Store<AppState>
+    private var state: HomeState? { store.state.screenState(for: .home) }
+    
     var body: some View {
-        Text("Home View")
-            .onLoad {
-                store.dispatch(HomeStateAction.fetchDuckImages)
-            }
+        VStack(spacing: 0) {
+            AsyncImage(url: URL(for: .dev, path: state?.duckImages.first?.imageURL ?? ""))
+            AsyncImage(url: URL(for: .dev, path: state?.duckImages.first?.imageURL ?? ""))
+        }
+        .onLoad {
+            store.dispatch(HomeStateAction.fetchDuckImages)
+        }
     }
 }
 
